@@ -20,7 +20,7 @@ services:
     environment:
       MYSQL_DATABASE: todo_app
       MYSQL_USER: todo_admin
-      MYSQL_PASSWORD: password
+      MYSQL_PASSWORD: rajeswari
       MYSQL_ALLOW_EMPTY_PASSWORD: 1
     volumes:
       - "./db:/docker-entrypoint-initdb.d"
